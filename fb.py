@@ -5,5 +5,5 @@ def fib(n):
 	 return(fib(n-1)+fib(n-2))
 #n=int(input("Enter number of terms"))
 
-for i in range(20):
+for i in range(50):
 	print fib(i)
