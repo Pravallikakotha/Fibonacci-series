@@ -1,2 +1,2 @@
 from fb import fib
-print fib(20)
+print fib(15)
