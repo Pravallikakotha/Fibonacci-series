@@ -3,7 +3,6 @@ def fib(n):
 		return n
         else:
 	 return(fib(n-1)+fib(n-2))
-#n=int(input("Enter number of terms"))
-
-for i in range(25):
+n=int(input("Enter number of terms"))
+for i in range(n):
 	print fib(i)
